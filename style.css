@@ -1,0 +1,89 @@
+body {
+    padding: 0;
+    margin: 0;
+    height: 95vh;
+    height: 95vh;
+    color: white;
+    background-color:gray;
+}
+.navBar{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items:center;
+    border: 1px solid black;
+    margin-top: 2px;
+    margin-left: 2px;
+    width: 355px;
+}
+.navBar .navImg{
+    margin-left: 10px;
+    border: solid 2px black;
+    border-radius: 50%;
+}
+.navTitle {
+    margin-left: 10px;
+    margin-right: 10px;
+} 
+.navDados{
+    margin-left: 10px;
+}
+#contate{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    border:1px solid black;
+    height: 100%;
+    width: 350px;
+    margin:2px;
+    padding:2px;
+}
+#contate .searchContate{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border:1px solid black;
+    padding: 2px;
+    height: 50px;
+}
+#txSearch{
+    margin-top: 12px;
+    float:left;
+    background-color:transparent;
+    font-style:italic;
+    font-size:18px;
+    padding-left: 15px;;
+    border:1px solid;
+    border-radius:20px;
+    height:24px;
+    width:320px;
+}
+#contate .searchContate .boxSearch img{
+    float:left;
+  }
+#contate .contateOpition{
+    margin-top: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    border:1px solid black;
+    padding: 2px 2px 2px 2px;
+    height: 100%;
+}
+
+#contate .contateOpition .contateInfo{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: flex-start;
+    padding: 2px;
+    margin-top: 2px;
+    border: 1px solid black;
+}
+#contate .contateOpition .contateInfo img{
+    border-radius: 50%;
+}
+
+
+
